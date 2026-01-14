@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { CircleAlert, LayoutGrid, Menu, Hash, Layers, Layout, X } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
+import { ModeToggle } from "../mode-toggle";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -15,7 +15,7 @@ import {
     SheetTrigger,
     SheetClose
 } from "@/components/ui/sheet";
-import Terms from "./terms";
+import Terms from "../terms";
 import { motion } from "framer-motion";
 import { headerVariants } from "@/constants/animates";
 

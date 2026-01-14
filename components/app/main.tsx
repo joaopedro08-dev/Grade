@@ -1,7 +1,7 @@
 "use client"
 
 import { mainVariants } from "@/constants/animates";
-import { GridCell } from "./grid-cell";
+import { GridCell } from "../grid-cell";
 import { getLetterStatus } from "@/lib/utils";
 import { motion } from "framer-motion";
 
